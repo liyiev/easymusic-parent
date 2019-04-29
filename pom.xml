@@ -79,6 +79,17 @@
 			<artifactId>fastjson</artifactId>
 			<version>1.2.47</version>
 		</dependency>
+		<!-- elasticSearch依赖 -->
+		<dependency>
+			<groupId>org.elasticsearch</groupId>
+			<artifactId>elasticsearch</artifactId>
+			<version>5.5.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.elasticsearch.client</groupId>
+			<artifactId>transport</artifactId>
+			<version>5.5.2</version>
+		</dependency>
 	</dependencies>
 	<!-- 部分必须依赖 -->
 	<dependencyManagement>
@@ -104,17 +115,6 @@
 			<groupId>org.mybatis.spring.boot</groupId>
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>1.1.1</version>
-		</dependency>
-		<!-- elasticSearch依赖 -->
-		<dependency>
-			<groupId>org.elasticsearch</groupId>
-			<artifactId>elasticsearch</artifactId>
-			<version>5.5.2</version>
-		</dependency>
-		<dependency>
-			<groupId>org.elasticsearch.client</groupId>
-			<artifactId>transport</artifactId>
-			<version>5.5.2</version>
 		</dependency>
 		<!-- spring cloud依赖 -->
 		<dependency>
